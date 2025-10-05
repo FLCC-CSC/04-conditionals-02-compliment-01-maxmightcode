@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Max Perrin
+# DATE: 10/5/25
+# BRIEF DESCRIPTION: Gives a compliment when requestes
 
 
 
@@ -15,6 +15,21 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    compliment()
+
+def compliment():
+    question = str(input(f'Would you like a compliment? '))
+
+    if question == 'yes':
+        print(f'You have wonderful eyes.')
+    else:
+        print(f'Thank you for playing.')
+
+
+        
+
+main()
 
 
 
@@ -25,10 +40,6 @@
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
-
-    
-
-
 
 ########################################
 #          SAMPLE OUTPUT

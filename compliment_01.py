@@ -23,6 +23,7 @@ def compliment():
 
     if question == 'yes':
         print(f'You have wonderful eyes.')
+        print(f'Thank you for playing.')
     else:
         print(f'Thank you for playing.')
 
